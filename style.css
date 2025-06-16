@@ -1,17 +1,17 @@
 body {
-    background-image: url('https://t4.ftcdn.net/jpg/05/18/53/19/360_F_518531918_oYY8KSe4BpIPHLWVx46UaOqddEdviSD6.jpg');
+    background-image: url('https://cdn.neurosys.com/wp-content/webp-express/webp-images/uploads/2021/10/QualityAssurance.jpg.webp');
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     text-align: center;
     text-justify: auto;
 }
 
 p, a {
-    color: white;
+    color: rgb(197, 235, 30);
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -21,8 +21,25 @@ h1, h2 {
 }
 
 h3 {
-    color: rgb(78, 197, 127);
+    color: rgb(42, 216, 114);
+    text-decoration: underline;
 }
+
+h4 {
+    color: rgb(42, 216, 114);
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center; 
+    padding-left: 0; 
+}
+
+li {
+    color: rgb(175, 211, 14);
+    line-height: 1.6;
+}
+
 
 a:hover {
     color: red;
